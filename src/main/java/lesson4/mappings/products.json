@@ -1,0 +1,10 @@
+{
+    "request": {
+        "urlPathPattern": "/products/2",
+        "method": "GET"
+    },
+    "response": {
+        "status": 200,
+		 "bodyFileName": "products.json"
+    }
+}

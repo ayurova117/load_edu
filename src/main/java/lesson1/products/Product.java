@@ -13,7 +13,6 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
 public class Product {
     private double price;
     private String name;
-    @JsonIgnore
     private double weight;
 
     public double getPrice() {

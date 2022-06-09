@@ -20,15 +20,15 @@ public class Task2 {
 
         Orange orange = new Orange();
         orange.setName("Апельсин");
-        orange.setPrice(213.5);
-        orange.setWeight(1.45);
+        orange.setPrice((int) (Math.random() * 100));
+        orange.setWeight((int) (Math.random() * 100));
         orange.setBone(false);
         productList.add(orange);
 
         Apple apple = new Apple();
         apple.setName("Яблоко");
-        apple.setPrice(47.5);
-        apple.setWeight(0.95);
+        apple.setPrice((int) (Math.random() * 100));
+        apple.setWeight((int) (Math.random() * 100));
         apple.setColor("Красный");
         productList.add(apple);
 

@@ -1,0 +1,18 @@
+{ 
+"usersCount": 2,
+"users":
+	[
+		{
+		"name": "Ivan",
+		"surname": "Pupkin",
+		"midlena": "Ivanovich",
+		"age": 45
+		},
+		{
+		"name": "Petr",
+		"surname": "Rubik",
+		"midlena": "Petrovich",
+		"age": 43
+		}
+	]
+}

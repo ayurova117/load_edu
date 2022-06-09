@@ -22,15 +22,15 @@ public class Task3 {
 
         Orange orange = new Orange();
         orange.setName("Orange");
-        orange.setPrice(125.5);
-        orange.setWeight(250.0);
+        orange.setPrice((int) (Math.random() * 100));
+        orange.setWeight((int) (Math.random() * 100));
         orange.setBone(true);
         productList.add(orange);
 
         Apple apple = new Apple();
         apple.setName("Orange");
-        apple.setPrice(125.5);
-        apple.setWeight(250.0);
+        apple.setPrice((int) (Math.random() * 100));
+        apple.setWeight((int) (Math.random() * 100));
         apple.setColor("Red");
         productList.add(apple);
 
@@ -45,7 +45,8 @@ public class Task3 {
 
         List<Order> orderList = new ArrayList<>();
         File file = new File("./order100.json");
-        for (int i = 1; i <= 100; i++) {
+        int countOrder = 100;
+        for (int i = 1; i <= countOrder; i++) {
             Order order = new Order();
             order.setNumOrder(i);
             order.setAddress(address);

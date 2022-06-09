@@ -1,1 +1,17 @@
-{"numOrder":1,"productList":[{"type":"products.Orange","price":213.5,"name":"Апельсин","bone":false},{"type":"products.Apple","price":47.5,"name":"Яблоко","color":"Красный"}]}
+{
+  "numOrder": 1,
+  "productList": [
+    {
+      "type": "products.Orange",
+      "price": 213.5,
+      "name": "Апельсин",
+      "bone": false
+    },
+    {
+      "type": "products.Apple",
+      "price": 47.5,
+      "name": "Яблоко",
+      "color": "Красный"
+    }
+  ]
+}

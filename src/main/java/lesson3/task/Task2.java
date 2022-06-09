@@ -15,6 +15,9 @@ import java.util.List;
 public class Task2 {
 
     public static void main(String[] args) throws IOException {
+        Integer countWorker = 10;
+        Integer countOffice = 100;
+
         ObjectMapper mapper = new XmlMapper();
         List<Worker> workerList = new ArrayList<>();
         List<Office> officeList = new ArrayList<>();
@@ -27,7 +30,7 @@ public class Task2 {
         address.setNumberOfFloor(8);
         address.setNumberOfFlat(5);
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < countWorker; i++) {
             Worker worker = new Worker();
             worker.setName("Ivan");
             worker.setSurName("Ivanov");
@@ -38,7 +41,7 @@ public class Task2 {
             worker.setId(i);
             workerList.add(worker);
         }
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < countOffice; i++) {
             Office office = new Office();
             office.setAddress(address);
             office.setWorker(workerList);

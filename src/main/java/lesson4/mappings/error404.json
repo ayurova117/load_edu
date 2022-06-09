@@ -1,0 +1,14 @@
+{
+	"priority":11,
+	"request": {
+		"method": "ANY",
+		"urlPathPattern": ".*"
+	},
+	"response": {
+		"status":404,
+		"jsonBody": {"status": "Error", "message": "Not Found"},
+		"headers": {
+			"Content-Type": "application/json"
+		}
+	}
+}
